@@ -1,0 +1,60 @@
+[
+    # Spam
+    'Spam: Irrelevant, random, or nonsensical information that does not provide value and should be disregarded. Examples include random words, gibberish, or unrelated content.',
+    'Spam Example 1: "ghbdfkjad;fsd" - This is a random string of characters without any meaningful content.',
+    'Spam Example 2: "Buy our amazing product now! Get a free gift!" - Generic promotional spam not related to the conversation.',
+    'Spam Example 3: "sjdksl!@#$%!!" - Nonsensical characters and no intent to communicate anything useful.',
+    'Spam Example 4: "check out this viral video! https://some-random-url.com" - A completely unrelated link that has nothing to do with the current context.',
+    'Spam Example 5: "H#ell#o w#orld! 12345..." - Random characters and numbers that don’t add any value.',
+
+    # Specified Data Needed
+    'Specified Data Needed: A valid request or message where the user requires specific information or a response. You must use available knowledge or resources to address the query effectively.',
+    'Specified Data Example 1: "What is the weather like today?" - A clear and specific request for information that can be answered with current data.',
+    'Specified Data Example 2: "Can you provide a summary of the meeting minutes?" - A valid request where the assistant needs to pull relevant information from a known source.',
+    'Specified Data Example 3: "Please explain the process of how photosynthesis works." - A direct request for educational content based on available knowledge.',
+    'Specified Data Example 4: "I need help with scheduling a meeting tomorrow." - The user needs assistance with a specific task (scheduling), which requires a response based on available tools.',
+    'Specified Data Example 5: "What’s the stock price of Tesla?" - A clear request for specific financial data that can be answered from available sources.',
+
+    # Complaint
+    'Complaint: A message expressing dissatisfaction or negative feedback. This requires addressing the issue at hand, and may involve escalating to a Human-in-the-Loop (HITL) for resolution or further discussion.',
+    'Complaint Example 1: "Your customer service was terrible today. I couldn’t get any help." - A direct complaint that needs a thoughtful response or escalation.',
+    'Complaint Example 2: "The product I ordered arrived damaged, and I’m very upset." - A complaint about product quality that should be addressed through the appropriate channels.',
+    'Complaint Example 3: "I tried calling support for hours with no answer. This is unacceptable." - A frustration over lack of response that warrants an apology and possible escalation.',
+    'Complaint Example 4: "Your website is always down when I need it most!" - A complaint about service uptime that should be addressed by the technical team.',
+    'Complaint Example 5: "I don’t like the recent changes you made to the app. It’s difficult to use now." - User feedback about a product update, which needs to be acknowledged and potentially addressed.',
+
+    # Other
+    'Other: A message that does not fit clearly into any of the above categories. After reviewing it 2-3 times, if still unidentified, classify it as spam. This could include ambiguous or unclear messages that do not fit into spam, specified data, or complaints.',
+    'Other Example 1: "I don’t really know what I need, but I’m not happy about this." - Ambiguous feedback, unclear if it’s a complaint or requires further clarification.',
+    'Other Example 2: "So, what do we do now?" - This could be a request, but the context is unclear and may need further clarification.',
+    'Other Example 3: "Let’s talk about the future of technology." - This is more of a vague statement or open-ended discussion rather than a specific request.',
+    'Other Example 4: "Here’s the thing: I think there’s a better way to do this." - A statement of opinion, but it lacks actionable context.',
+    'Other Example 5: "I’ve been thinking about this for a while." - An ambiguous statement without a clear question or direction.',
+
+    # General Requests
+    'General Requests: Requests that are neither spam nor complaints but do require a specific action or answer.',
+    'General Request Example 1: "Can you confirm if my order has been shipped?" - A request for confirmation regarding a specific action that needs to be checked.',
+    'General Request Example 2: "I need directions to your office." - A simple and actionable request that is not spam or a complaint.',
+
+    # Suggestions or Feedback
+    'Suggestions or Feedback: A message that provides ideas for improvement or suggestions for new features.',
+    'Feedback Example 1: "It would be great if you could offer a dark mode option." - Constructive feedback that requires acknowledgment and possible implementation.',
+    'Feedback Example 2: "The new update is great, but it could be improved by adding more customization options." - Positive feedback with a suggestion for improvement.',
+    'Feedback Example 3: "I think you should add a search bar to the main page. It would make navigating easier." - A constructive suggestion that can help improve the service.',
+
+    # Inquiries for Clarification
+    'Inquiries for Clarification: A message that seeks clarification or further details about something unclear.',
+    'Clarification Example 1: "Can you explain what you meant by that last message?" - A request to clarify previous communication.',
+    'Clarification Example 2: "I didn’t understand the part about the new features. Could you explain more?" - A clarification request for more detailed information.',
+    'Clarification Example 3: "When will the new update be available? I missed the announcement." - A question seeking clarification about a particular event or feature.',
+
+    # Humorous Messages
+    'Humorous Messages: Messages that appear to be jokes or playful, not intended to be serious.',
+    'Humor Example 1: "I’m trying to set up an AI assistant, but it keeps asking me for a coffee break." - A playful, humorous message.',
+    'Humor Example 2: "Can you teach my dog how to use a computer?" - A light-hearted question that isn’t serious.',
+
+    # General Discussion
+    'General Discussion: A message that isn’t necessarily a query or complaint but invites casual or open-ended conversation.',
+    'Discussion Example 1: "How do you feel about AI becoming more integrated into daily life?" - A philosophical or open-ended discussion prompt.',
+    'Discussion Example 2: "Have you read any good books lately?" - A conversational query that is more social than informational.'
+]
